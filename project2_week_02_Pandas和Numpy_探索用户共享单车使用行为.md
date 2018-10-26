@@ -56,17 +56,17 @@
 
 例如：想对列进行去重复值->重复值的英语是"duplicate"，搜索有关"duplicate"的pandas方法->找到对应的方法"drop_duplicates"->去[Pandas的官方文档](http://pandas.pydata.org/)查看具体的解析。
 
-![image-20181020195436558](/Users/chenlinlin/Documents/macbook air/写的文章/pandas的官方文档.png)
+![image-20181020195436558](pic/pandas的官方文档.png)
 
 小抄链接:https://pan.baidu.com/s/1vIdkjAAbDV5ZFT8m78k3gw  密码:r3oi
 
-![image-20181015025047400](/Users/chenlinlin/Documents/macbook air/写的文章/pandas小抄.png)
+![image-20181015025047400](pic/pandas小抄.png)
 
 2.如何查阅文档
 
 学习查阅文档是coder必不可少的技能，这个部分可以简单学习当我们想学习一个工具库的方法，实现一个新的功能的时候我们该如何看文档。其实文档就是工具说明书，其要点有迹可循。我们可以想象，当我们买一个电饭煲的时候，其实也会关注几个方面：这是干什么用的，我需要往里面放什么，这个电饭煲处理完之后输出什么。而各种函数和方法就是电饭煲，我们传入的参数就是大米，产生的结果就是香飘飘的米饭。
 
-![查阅文档](/Users/chenlinlin/Documents/macbook air/写的文章/查阅文档.png)
+![查阅文档](pic/查阅文档.png)
 
 查看文档要看几个部分，一个是方法是应用到什么类型上的，比如drop_duplicates是应用到Pandas DataFrame上的，也就是红色框框部分；函数的描述，实现什么功能的，就是蓝色框部分；以及要传入什么参数，每个参数又是什么意思，黄色框部分；返回什么值，绿色方框部分。
 
@@ -76,7 +76,7 @@
 
 启动方法：在终端或者命令行下输入`ipython`即可顺利启动。对于接下来的练习代码，可以复制以后，在ipython输入`%paste`即可粘贴。
 
-![image-20181020221933442](/Users/chenlinlin/Documents/macbook air/写的文章/ipython终端.png)
+![image-20181020221933442](pic/ipython终端.png)
 
 ## 知识点
 
@@ -528,13 +528,13 @@ Pandas DataFrames 是具有带标签的行和列的二维数据结构，可以�
 >
 > 我们查看下groupby整个过程发生了什么
 >
-> ![image-20181020215534114](/Users/chenlinlin/Documents/macbook air/写的文章/groupby函数示意图.png)
+> ![image-20181020215534114](pic/groupby函数示意图.png)
 >
 > 可以看到原本的数据集，通过`groupby('col1')`用法以后，col当中相同的值就会被分到同一组当中，然后通过应用某个聚合函数例如`sum(),` `mean()`, `max()`等函数返回一个对分组数据的一个操作结果。
 >
-> ![image-20181020215857531](/Users/chenlinlin/Documents/macbook air/写的文章/groupby读取数据.png)
+> ![image-20181020215857531](pic/groupby读取数据.png)
 >
-> ![image-20181020215932924](/Users/chenlinlin/Documents/macbook air/写的文章/groupby结果.png)
+> ![image-20181020215932924](pic/groupby结果.png)
 >
 > 在练习当中，读取的数据`data.groupby(['Year'])['Salary'].sum()`，通过对`Year`这个字段进行分组，然后对`Salary`这个字段进行加和`sum()`统计，最终得出每一年的`Salary`的总和。
 

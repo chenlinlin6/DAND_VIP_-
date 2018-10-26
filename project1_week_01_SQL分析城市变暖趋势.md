@@ -28,7 +28,7 @@
 
 ### 实体关系图
 
-![实体关系图](/Users/chenlinlin/Documents/优达VIP班级内容/实体关系图.png)
+![实体关系图](pic/实体关系图.png)
 
 在实际工作中，我们经常需要查询数据库当中的好几张表，这几张表都彼此有关系，而实体关系图就是描绘表与表之间的关系图。可以理解为“延禧攻略”当中的人物关系图。上面有5个电子表格，web_events，accounts，sales_reps，region和orders，底下是它们的属性，也就是表格的列名，它们彼此之间的属性是相互有所关联的。
 
@@ -38,9 +38,9 @@
 
 1.类似于excel的表格
 
-![image-20181007103306073](/Users/chenlinlin/Desktop/excel表格.png)
+![image-20181007103306073](pic/excel表格.png)
 
-![image-20181007103752286](/Users/chenlinlin/Desktop/sql.png)
+![image-20181007103752286](pic/sql.png)
 
 2.每列数据类型一致
 
@@ -67,11 +67,11 @@
 
 销售额会受到是否周末有大的影响
 
-![移动平均值1](/Users/chenlinlin/Documents/优达VIP班级内容/移动平均值1.png)
+![移动平均值1](pic/移动平均值1.png)
 
 计算移动平均后，可以一定程度上平滑曲线，看出整体趋势。
 
-![移动平均值2](/Users/chenlinlin/Documents/优达VIP班级内容/移动平均值2.png)
+![移动平均值2](pic/移动平均值2.png)
 
 
 
@@ -103,10 +103,10 @@
 
 ## 一些小建议
 大家可以在完成项目之前，先把要完成的内容或者说完成的步骤通过一些清单工具，比如“滴答清单“或者是”奇妙清单“列出来，完成一项，勾掉一项，有序推进项目并享受完成过程的乐趣。
-![滴答清单规划你的步骤](/Users/chenlinlin/Documents/macbook air/写的文章/滴答清单规划你的步骤.png)
+![滴答清单规划你的步骤](pic/滴答清单规划你的步骤.png)
 # 彩蛋
 ##### 更多的sql练习？
 这部分留给学有余力的同学以后可以继续进修，在这个项目就不要求了。
 推荐[SQLBolt](https://sqlbolt.com/lesson/select_queries_with_constraints)这个交互式网站，在上面很好的一点就是教程分为许多简短的节数，由浅入深，每一节先给简单的文字的教程，然后底下有针对某个知识点的训练，哪里不会补哪里就可以了，so easy。
 
-![image-20181007113926618](/Users/chenlinlin/Documents/macbook air/写的文章/sqlbolt交互式练习.png)
+![image-20181007113926618](pic/sqlbolt交互式练习.png)
